@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MovieFlix",
-    "slug": "movie_app_react_native",
+    "name": "rn-movie-app",
+    "slug": "rn-movie-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",

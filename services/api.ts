@@ -23,7 +23,8 @@ export const fetchMovies = async ({ query }: FetchMoviesProps) => {
 
   if (!response.ok) {
     // @ts-ignore
-    throw new Error("Failed to fetch movies", response.statusText);
+    console.log(response.status);
+    throw new Error("Failed to fetch movies");
   }
 
   const data = await response.json();
